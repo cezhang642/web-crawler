@@ -34,8 +34,7 @@ To run the tests, run the following command:
 $ python3 crawler_tests.py 
 ```
 
-
-### Break down into end to end tests
+### test details
 
 The test tests the application on https://crouton.net/, which is a website with no links. This tests the case of parents with no children. I anticipate the output of the program to be only https://crouton.net/, which asserts true in the test. 
 
