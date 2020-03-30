@@ -1,7 +1,7 @@
 # rescale-web-crawler
 
 This program is a web crawler which fetches URLs and outputs crawl results to the console as the crawl proceeds.
-The program first fetches the HTML document for a parent URL, parses out the URLs in the parent document and prints the parents and then its children, and then concurrently runs this again with each child as a parent URL.
+The program first fetches the HTML document for a parent URL, parses out the URLs in the parent document and prints the parents and then its children, and then concurrently runs this again with each child as a parent URL. In the output log, parents will be aligned with the left side of output, its corresponding children will be indented.
 
 ## Getting Started
 
