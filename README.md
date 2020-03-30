@@ -9,34 +9,30 @@ You should have Python3 installed on your machine to use this program. This prog
 
 ### Building and Running the Application
 
-First download crawler2.py to your local machine. Then in your console, navigate to the current directory that crawler2.py is in. To run the application, run the following command:
+First download the entire file, CZhang_Crawler to your local machine. Then in your console, navigate to set CZhang_Crawler as your current directory. To download all requirements, run the following command:
 ```
-python3 crawler2.py
-
+$ pip install -r requirements.txt
 ```
-The program will then prompt you to type in the beginning URL. You should copy in the URL you want to run the program on, and then press enter. You will then see the program begin to print out the URLs. There is no stopping mechanism.
+This will download all the necessary libraries needed to build the application.
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To run the application, run "python3 crawler2.py" followed by a URL. This is an example of what this might look like:
 
 ```
-Give the example
+$ python3 crawler2.py https://www.testudo.umd.edu/
 ```
+Then you will see a log of URLs begin to print.
 
-And repeat
+### Demo of application
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+![](Crawler_gif.gif)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run the tests, run the following command:
+```
+python3 crawler_tests.py 
+```
+
 
 ### Break down into end to end tests
 
