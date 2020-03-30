@@ -10,6 +10,7 @@ You should have Python3 installed on your machine to use this program. This prog
 ### Building and Running the Application
 
 First download the entire file, CZhang_Crawler to your local machine. Then in your console, navigate to set CZhang_Crawler as your current directory. To download all requirements, run the following command:
+
 ```
 $ pip install -r requirements.txt
 ```
@@ -30,29 +31,13 @@ Then you will see a log of URLs begin to print.
 
 To run the tests, run the following command:
 ```
-python3 crawler_tests.py 
+$ python3 crawler_tests.py 
 ```
 
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+The test tests the application on https://crouton.net/, which is a website with no links. This tests the case of parents with no children. I anticipate the output of the program to be only https://crouton.net/, which asserts true in the test. 
 
 ## Built With
 
