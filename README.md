@@ -45,7 +45,7 @@ The test tests the application on https://crouton.net/, which is a website with 
 
 ## Authors
 
-* **Christina Zhang** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Christina Zhang** 
 
 ## Acknowledgments
 
